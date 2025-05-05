@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "AbilitySystem/Abilities/OWGA_Ultimate.h"
+#include "AbilitySystem/Abilities/Base/OWGA_Ultimate.h"
 #include "AbilitySystem/Effects/OWGE_Cost.h"
 #include "AbilitySystem/Attributes/OWAttributeSet.h"
 

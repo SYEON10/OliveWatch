@@ -3,7 +3,7 @@
 
 #include "AbilitySystem/OWAbilitySystemComponent.h"
 
-#include "AbilitySystem/Abilities/OWGameplayAbility.h"
+#include "AbilitySystem/Abilities/Base/OWGameplayAbility.h"
 #include "AbilitySystem/OWAbilitySet.h"
 
 //void UOWAbilitySystemComponent::AddCharacterAbilities(const TArray<TSubclassOf<class UGameplayAbility>>& StartupAbilities)

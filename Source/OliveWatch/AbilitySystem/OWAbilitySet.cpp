@@ -3,7 +3,7 @@
 #include "AbilitySystem/OWAbilitySet.h"
 
 #include "AbilitySystem/OWAbilitySystemComponent.h"
-#include "AbilitySystem/Abilities/OWGameplayAbility.h"
+#include "AbilitySystem/Abilities/Base/OWGameplayAbility.h"
 #include "OWLogChannels.h"
 
 UOWAbilitySet::UOWAbilitySet(const FObjectInitializer& ObjectInitializer)
@@ -11,7 +11,7 @@ UOWAbilitySet::UOWAbilitySet(const FObjectInitializer& ObjectInitializer)
 {
 }
 
-// ASC¿¡ ability, effect, attribute ¿¬°áÇÏ°í È°¼ºÈ­
+// ASCï¿½ï¿½ ability, effect, attribute ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ È°ï¿½ï¿½È­
 void UOWAbilitySet::GiveToAbilitySystem(UOWAbilitySystemComponent* OWASC) const
 {
 	check(OWASC);

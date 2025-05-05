@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "AbilitySystem/Abilities/OWGameplayAbility.h"
+#include "AbilitySystem/Abilities/Base/OWGameplayAbility.h"
 #include "OWGameplayAbility_Test.generated.h"
 
 /**
